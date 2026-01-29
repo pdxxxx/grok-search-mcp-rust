@@ -1,0 +1,30 @@
+# Rust
+/target/
+Cargo.lock
+
+# Node
+/node_modules/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tools
+.ace-tool/
+
+# Original Python project (reference only)
+/GrokSearch/
+
+# Claude
+.claude/
+
+# OpenSpec
+/openspec/

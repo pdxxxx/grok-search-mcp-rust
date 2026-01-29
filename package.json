@@ -1,0 +1,27 @@
+{
+  "name": "grok-search-mcp-rust",
+  "version": "0.1.0",
+  "description": "Rust MCP server for Grok-powered web search - installer",
+  "author": "pdxxxx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdxxxx/grok-search-mcp-rust.git"
+  },
+  "bin": {
+    "grok-search-mcp-rust": "bin/install.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "keywords": [
+    "mcp",
+    "grok",
+    "search",
+    "claude",
+    "ai"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
