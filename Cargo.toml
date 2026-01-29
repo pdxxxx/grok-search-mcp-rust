@@ -22,6 +22,9 @@ dirs = "5"
 chrono = { version = "0.4", features = ["serde", "clock"] }
 rand = "0.8"
 
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = ["Win32_System_Pipes", "Win32_Foundation", "Win32_Storage_FileSystem"] }
+
 [[bin]]
 name = "grok-search-mcp"
 path = "src/main.rs"
