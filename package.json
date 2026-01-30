@@ -1,6 +1,6 @@
 {
   "name": "grok-search-mcp-rust",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Rust MCP server for Grok-powered web search - installer",
   "author": "pdxxxx",
   "license": "MIT",
